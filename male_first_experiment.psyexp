@@ -155,11 +155,11 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="nPlays = 0;&amp;#10;continueBtn_2.opacity = 0.35;&amp;#10;autoPlayed = false;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="autoPlayed = false;&amp;#10;nPlays = 0;&amp;#10;continueBtn_2.opacity = 0.35;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="prevReplayClicks = 0" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="JS" valType="str" updates="None" name="Code Type"/>
         <Param val="if replayBtn.numClicks &gt; prevReplayClicks:&amp;#10;    introSound.play()&amp;#10;    prevReplayClicks = replayBtn.numClicks&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
-        <Param val="if (!autoPlayed &amp;&amp; t &gt;= 0.3) {&amp;#10;    introSound.play();&amp;#10;    autoPlayed = true;&amp;#10;    nPlays += 1;&amp;#10;}&amp;#10;&amp;#10;// play the sound once per space press&amp;#10;if (key_space_3.getKeys({keyList: ['space'], waitRelease: false}).length &gt; 0) {&amp;#10;    introSound.stop();&amp;#10;    introSound.play();&amp;#10;    nPlays += 1;&amp;#10;}&amp;#10;&amp;#10;continueBtn_2.opacity = (nPlays &gt; 0) ? 1.0 : 0.35;&amp;#10;&amp;#10;if (continueBtn_2.isClicked &amp;&amp; nPlays &gt; 0) {&amp;#10;    continueRoutine = false;&amp;#10;}" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="if (!autoPlayed &amp;&amp; t &gt;= 0.3) {&amp;#10;    introSound.play();&amp;#10;    autoPlayed = true;&amp;#10;    nPlays += 1;&amp;#10;}&amp;#10;// play the sound once per space press&amp;#10;if (key_space_3.getKeys({keyList: ['space'], waitRelease: false}).length &gt; 0) {&amp;#10;    introSound.play();&amp;#10;    nPlays += 1;&amp;#10;}&amp;#10;continueBtn_2.opacity = (nPlays &gt; 0) ? 1.0 : 0.35;&amp;#10;if (continueBtn_2.isClicked &amp;&amp; nPlays &gt; 0) {&amp;#10;    continueRoutine = false;&amp;#10;}" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
         <Param val="introSound.stop();" valType="extendedCode" updates="constant" name="End JS Routine"/>

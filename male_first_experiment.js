@@ -683,7 +683,7 @@ async function experimentInit() {
   breakText = new visual.TextStim({
     win: psychoJS.window,
     name: 'breakText',
-    text: 'Please, take a short break before the second part of th experiment.\n\nClick Continue when you’re ready.',
+    text: 'Please, take a short break before the second part of the experiment.\n\nClick Continue when you’re ready.',
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,

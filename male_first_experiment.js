@@ -1,6 +1,6 @@
-﻿/****************************** 
- * Male_First_Experiment *
- ******************************/
+﻿/******************************* 
+ * Vocal_Fry_Experiment_1 *
+ *******************************/
 
 import { core, data, sound, util, visual, hardware } from './lib/psychojs-2026.1.3.js';
 const { PsychoJS } = core;
@@ -12,7 +12,7 @@ const { round } = util;
 
 
 // store info about the experiment session:
-let expName = 'male_first_experiment';  // from the Builder filename that created this script
+let expName = 'vocal_fry_experiment_1';  // from the Builder filename that created this script
 let expInfo = {
     'participant': `${util.pad(Number.parseFloat(util.randint(0, 999999)).toFixed(0), 6)}`,
 };
@@ -166,7 +166,6 @@ psychoJS.start({
     {'name': 'stimuli/tad_m_c1_p2_h3_r4.wav', 'path': 'stimuli/tad_m_c1_p2_h3_r4.wav'},
     {'name': 'stimuli/tad_m_c2_p-2_h-2_r3.wav', 'path': 'stimuli/tad_m_c2_p-2_h-2_r3.wav'},
     {'name': 'conditions/female_stimuli.xlsx', 'path': 'conditions/female_stimuli.xlsx'},
-    {'name': 'stimuli/dad_f_c-1_p0_h3_r3.wav', 'path': 'stimuli/dad_f_c-1_p0_h3_r3.wav'},
     {'name': 'stimuli/dab_f_c-1_p3_h-2_r3.wav', 'path': 'stimuli/dab_f_c-1_p3_h-2_r3.wav'},
     {'name': 'stimuli/dab_f_c-2_p-1_h-1_r4.wav', 'path': 'stimuli/dab_f_c-2_p-1_h-1_r4.wav'},
     {'name': 'stimuli/dab_f_c1_p-2_h-2_r3.wav', 'path': 'stimuli/dab_f_c1_p-2_h-2_r3.wav'},
@@ -178,16 +177,17 @@ psychoJS.start({
     {'name': 'stimuli/dab_f_c2_p-1_h0_r3.wav', 'path': 'stimuli/dab_f_c2_p-1_h0_r3.wav'},
     {'name': 'stimuli/dab_f_c2_p-1_h0_r4.wav', 'path': 'stimuli/dab_f_c2_p-1_h0_r4.wav'},
     {'name': 'stimuli/dab_f_c2_p-1_h2_r2.wav', 'path': 'stimuli/dab_f_c2_p-1_h2_r2.wav'},
-    {'name': 'stimuli/dad_f_c-1_p2_h3_r1.wav', 'path': 'stimuli/dad_f_c-1_p2_h3_r1.wav'},
-    {'name': 'stimuli/dad_f_c-1_p3_h1_r1.wav', 'path': 'stimuli/dad_f_c-1_p3_h1_r1.wav'},
+    {'name': 'stimuli/dad_f_c2_p1_h1_r1.wav', 'path': 'stimuli/dad_f_c2_p1_h1_r1.wav'},
+    {'name': 'stimuli/dad_f_c2_p-3_h2_r3.wav', 'path': 'stimuli/dad_f_c2_p-3_h2_r3.wav'},
+    {'name': 'stimuli/dad_f_c1_p2_h-3_r3.wav', 'path': 'stimuli/dad_f_c1_p2_h-3_r3.wav'},
+    {'name': 'stimuli/dad_f_c1_p1_h0_r4.wav', 'path': 'stimuli/dad_f_c1_p1_h0_r4.wav'},
+    {'name': 'stimuli/dad_f_c0_p3_h-1_r3.wav', 'path': 'stimuli/dad_f_c0_p3_h-1_r3.wav'},
+    {'name': 'stimuli/dad_f_c0_p-3_h2_r5.wav', 'path': 'stimuli/dad_f_c0_p-3_h2_r5.wav'},
+    {'name': 'stimuli/dad_f_c-2_p2_h2_r4.wav', 'path': 'stimuli/dad_f_c-2_p2_h2_r4.wav'},
+    {'name': 'stimuli/dad_f_c-2_p1_h3_r4.wav', 'path': 'stimuli/dad_f_c-2_p1_h3_r4.wav'},
     {'name': 'stimuli/dad_f_c-2_p0_h-2_r4.wav', 'path': 'stimuli/dad_f_c-2_p0_h-2_r4.wav'},
-    {'name': 'stimuli/dad_f_c-2_p1_h0_r3.wav', 'path': 'stimuli/dad_f_c-2_p1_h0_r3.wav'},
-    {'name': 'stimuli/dad_f_c-2_p1_h3_r5.wav', 'path': 'stimuli/dad_f_c-2_p1_h3_r5.wav'},
-    {'name': 'stimuli/dad_f_c1_p-3_h-1_r5.wav', 'path': 'stimuli/dad_f_c1_p-3_h-1_r5.wav'},
-    {'name': 'stimuli/dad_f_c1_p-3_h2_r4.wav', 'path': 'stimuli/dad_f_c1_p-3_h2_r4.wav'},
-    {'name': 'stimuli/dad_f_c1_p2_h-3_r5.wav', 'path': 'stimuli/dad_f_c1_p2_h-3_r5.wav'},
-    {'name': 'stimuli/dad_f_c2_p1_h3_r5.wav', 'path': 'stimuli/dad_f_c2_p1_h3_r5.wav'},
-    {'name': 'stimuli/dad_f_c2_p2_h0_r3.wav', 'path': 'stimuli/dad_f_c2_p2_h0_r3.wav'},
+    {'name': 'stimuli/dad_f_c-1_p0_h-1_r1.wav', 'path': 'stimuli/dad_f_c-1_p0_h-1_r1.wav'},
+    {'name': 'stimuli/dad_f_c-1_p-2_h-1_r4.wav', 'path': 'stimuli/dad_f_c-1_p-2_h-1_r4.wav'},
     {'name': 'stimuli/tab_f_c-1_p-3_h-1_r3.wav', 'path': 'stimuli/tab_f_c-1_p-3_h-1_r3.wav'},
     {'name': 'stimuli/tab_f_c-2_p0_h-2_r1.wav', 'path': 'stimuli/tab_f_c-2_p0_h-2_r1.wav'},
     {'name': 'stimuli/tab_f_c0_p-1_h0_r5.wav', 'path': 'stimuli/tab_f_c0_p-1_h0_r5.wav'},

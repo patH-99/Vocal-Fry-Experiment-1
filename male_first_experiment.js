@@ -1,6 +1,6 @@
-﻿/******************************* 
- * Vocal_Fry_Experiment_1 *
- *******************************/
+﻿/****************************** 
+ * Male_First_Experiment *
+ ******************************/
 
 import { core, data, sound, util, visual, hardware } from './lib/psychojs-2026.1.3.js';
 const { PsychoJS } = core;
@@ -12,7 +12,7 @@ const { round } = util;
 
 
 // store info about the experiment session:
-let expName = 'vocal_fry_experiment_1';  // from the Builder filename that created this script
+let expName = 'male_first_experiment';  // from the Builder filename that created this script
 let expInfo = {
     'participant': `${util.pad(Number.parseFloat(util.randint(0, 999999)).toFixed(0), 6)}`,
 };
